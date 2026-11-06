@@ -1,0 +1,24 @@
+<div class="modal-header">
+  <button type="button" class="btn-close" (click)="activeModal.dismiss()"></button>
+</div>
+<div class="modal-body">
+  <p>Name: {{ vehicleDetail?.name }}</p>
+  <p>model: {{ vehicleDetail?.model }}</p>
+  <p>manufacturer: {{ vehicleDetail?.manufacturer }}</p>
+  <p>cost_in_credits: {{ vehicleDetail?.cost_in_credits }}</p>
+  <p>length: {{ vehicleDetail?.length }}</p>
+  <p>max_atmosphering_speed: {{ vehicleDetail?.max_atmosphering_speed }}</p>
+  <p>crew: {{ vehicleDetail?.crew }}</p>
+  <p>passengers: {{ vehicleDetail?.passengers }}</p>
+  <p>cargo_capacity: {{ vehicleDetail?.cargo_capacity }}</p>
+  <p>consumables: {{ vehicleDetail?.consumables }}</p>
+  <p>vehicle_class: {{ vehicleDetail?.vehicle_class}}</p>
+  <p>pilots: {{ vehicleDetail?.pilots}}</p>
+  <p>films: {{ vehicleDetail?.films}}</p>
+  <p>created: {{ vehicleDetail?.created}}</p>
+  <p>edited: {{ vehicleDetail?.edited}}</p>
+  <p>url: {{ vehicleDetail?.url}}</p>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-secondary" (click)="activeModal.close()">Close</button>
+</div>
